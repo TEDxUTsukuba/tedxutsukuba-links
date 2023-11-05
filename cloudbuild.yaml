@@ -31,11 +31,6 @@ steps:
         "--memory=4Gi",
         "--quiet",
       ]
-  - id: "deploy"
-    name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
-    entrypoint: gcloud
-    args:
-      ["run", "services", "update-traffic", "${_SERVICE_NAME}", "--to-latest"]
 
 substitutions:
   _GCR_HOSTNAME: asia.gcr.io
