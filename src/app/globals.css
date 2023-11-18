@@ -9,15 +9,18 @@
 
 .background-blur {
   min-height: 100vh;
-  animation: backdrop 3s ease-out;
+  animation: backdrop 3s ease-in;
   animation-fill-mode: forwards;
 }
 
 @keyframes backdrop {
-  from {
+  0% {
     backdrop-filter: blur(0px);
   }
-  to {
+  30% {
+    backdrop-filter: blur(3px);
+  }
+  100% {
     backdrop-filter: blur(5px);
   }
 }

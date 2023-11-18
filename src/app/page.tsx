@@ -9,20 +9,20 @@ import { Parallax, useParallax } from "react-scroll-parallax";
 export default function Home() {
   const linkDivRef = useRef<HTMLDivElement>(null);
   const [vortexPositions, setVortexPositions] = useState([
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
-    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
+    { x: 0, y: 0, size: 0, speed: 0, zIndex: 0, opacity: 0, duration: 0 },
   ]);
 
   const parallaxLinkVortex01 = useParallax<HTMLImageElement>({
@@ -54,6 +54,8 @@ export default function Home() {
         // sizeが大きいほど値がマイナス値が小さくなる整数にする
         speed: -10 - Math.floor(Math.random() * 10),
         zIndex: 0,
+        opacity: 1,
+        duration: 300 + Math.floor(Math.random() * 700),
       };
     });
 
@@ -62,11 +64,11 @@ export default function Home() {
 
   useEffect(() => {
     randomizeVortexPositions();
-    window.addEventListener("resize", randomizeVortexPositions);
+    // window.addEventListener("resize", randomizeVortexPositions);
 
-    return () => {
-      window.removeEventListener("resize", randomizeVortexPositions);
-    };
+    // return () => {
+    //   window.removeEventListener("resize", randomizeVortexPositions);
+    // };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -83,11 +85,13 @@ export default function Home() {
             key={index}
             src={`/vortex/0${(index % 8) + 1}_transparent.png`}
             alt={`渦${(index % 8) + 1}`}
-            className="absolute pointer-events-none"
+            className="absolute pointer-events-none transition-opacity ease-in-out"
             style={{
               transform: `translate(${vortex.x}px, ${vortex.y}px)`,
               width: `${vortex.size}px`,
               zIndex: vortex.zIndex,
+              opacity: vortex.opacity,
+              transitionDuration: `${vortex.duration}ms`,
             }}
           />
           // </Parallax>
