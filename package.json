@@ -11,9 +11,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.0.1",
+    "next": "13.4.19",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-scroll-parallax": "^3.4.3"
   },
   "devDependencies": {
     "@types/node": "^20",
