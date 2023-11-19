@@ -216,33 +216,37 @@ export default function Home() {
 
   return (
     <main className="overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+        <div className="relative">
+          {/* 渦画像たち */}
+          {vortexPositions.map((vortex, index) => (
+            // <Parallax key={index} speed={vortex.speed} easing="easeInOutCubic">
+            <img
+              key={index}
+              src={`/vortex/0${(index % 8) + 1}_transparent.png`}
+              alt={`渦${(index % 8) + 1}`}
+              className="absolute pointer-events-none transition-opacity ease-in-out"
+              style={{
+                transform: `translate(${vortex.x}, ${vortex.y})`,
+                width: `${vortex.size}px`,
+                zIndex: vortex.zIndex,
+                opacity: vortex.opacity,
+                transitionDuration: `${vortex.duration}ms`,
+                transitionProperty: "opacity, scale",
+                scale: vortex.scale,
+                rotate: `${vortex.rotate}deg`,
+              }}
+            />
+            // </Parallax>
+          ))}
+        </div>
+      </div>
       <div
-        className="min-h-screen overflow-y-scroll overflow-x-hidden relative"
+        className="h-screen background-blur bg-white bg-opacity-20 overflow-y-scroll overflow-x-hidden relative"
         ref={linkDivRef}
       >
-        {/* 渦画像たち */}
-        {vortexPositions.map((vortex, index) => (
-          // <Parallax key={index} speed={vortex.speed} easing="easeInOutCubic">
-          <img
-            key={index}
-            src={`/vortex/0${(index % 8) + 1}_transparent.png`}
-            alt={`渦${(index % 8) + 1}`}
-            className="absolute pointer-events-none transition-opacity ease-in-out"
-            style={{
-              transform: `translate(${vortex.x}, ${vortex.y})`,
-              width: `${vortex.size}px`,
-              zIndex: vortex.zIndex,
-              opacity: vortex.opacity,
-              transitionDuration: `${vortex.duration}ms`,
-              transitionProperty: "opacity, scale",
-              scale: vortex.scale,
-              rotate: `${vortex.rotate}deg`,
-            }}
-          />
-          // </Parallax>
-        ))}
-        <div className="background-blur bg-white p-3 bg-opacity-20">
-          <div className="container mx-auto py-12">
+        <div className="p-3">
+          <div className="max-w-md mx-auto py-12">
             <div className="flex flex-col gap-3 justify-center items-center">
               <img
                 src="tedxutsukuba.png"
