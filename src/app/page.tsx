@@ -216,7 +216,7 @@ export default function Home() {
 
   return (
     <main className="overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-[100dvh] overflow-hidden">
         <div className="relative">
           {/* 渦画像たち */}
           {vortexPositions.map((vortex, index) => (
