@@ -17,7 +17,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -28,7 +28,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -39,7 +39,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -50,7 +50,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -61,7 +61,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -72,7 +72,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -83,7 +83,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -94,7 +94,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -105,7 +105,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -116,7 +116,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -127,7 +127,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -138,7 +138,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -149,7 +149,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
     {
@@ -160,7 +160,7 @@ export default function Home() {
       zIndex: 0,
       opacity: 0,
       duration: 0,
-      scale: 0,
+      scale: 0.95,
       rotate: 0,
     },
   ]);
@@ -234,7 +234,7 @@ export default function Home() {
               zIndex: vortex.zIndex,
               opacity: vortex.opacity,
               transitionDuration: `${vortex.duration}ms`,
-              transitionProperty: "opacity",
+              transitionProperty: "opacity, scale",
               scale: vortex.scale,
               rotate: `${vortex.rotate}deg`,
             }}
