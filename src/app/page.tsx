@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { MdTranslate } from "react-icons/md";
 import { MdOutlineAssignment } from "react-icons/md";
-import { useParallax } from "react-scroll-parallax";
 
 export default function Home() {
   const linkDivRef = useRef<HTMLDivElement>(null);
@@ -165,20 +164,12 @@ export default function Home() {
     },
   ]);
 
-  const parallaxLinkVortex01 = useParallax<HTMLImageElement>({
-    rotate: [0, 10],
-  });
-  const parallaxLinkVortex02 = useParallax<HTMLImageElement>({
-    rotate: [10, 0],
-  });
-  const parallaxLinkVortex03 = useParallax<HTMLImageElement>({
-    rotate: [0, 10],
-  });
-
   // vortexをランダムに配置する関数
   const randomizeVortexPositions = () => {
     const windowWidth = linkDivRef.current?.scrollWidth || 0;
     const windowHeight = linkDivRef.current?.scrollHeight || 0;
+    const windowSize = windowHeight * windowWidth;
+    console.log(windowHeight, windowWidth, windowSize);
 
     const newVortexPositions = vortexPositions.map(() => {
       const size =
@@ -257,69 +248,43 @@ export default function Home() {
               </h1>
             </div>
             <div className="py-12">
-              <div className="flex justify-start">
-                <div className="relative w-[70%]">
-                  <Link href="https://www.tedxutsukuba.com/">
-                    <img
-                      ref={parallaxLinkVortex01.ref}
-                      src="/vortex/01_transparent.webp"
-                      alt="渦1"
-                      className="w-full active:rotate-30 transition-all duration-500"
-                    />
-                    <div className="absolute rounded-full w-[70%] h-[70%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-purple-100 border-2 bg-opacity-50 backdrop-blur-sm border-purple-400 flex justify-center items-center">
-                      <div className="flex flex-col gap-2 items-center">
-                        <MdTranslate className="text-5xl text-purple-800" />
-                        <p className="text-xl font-bold text-center text-purple-800">
-                          翻訳
-                        </p>
-                      </div>
+              <div className="grid grid-cols-1 gap-3">
+                <Link href="https://script.tedxutsukuba.com/audience/FpnBp8yUSMmSNXVVH93p">
+                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
+                    <div className="flex gap-3 flex-col justify-center items-center">
+                      <MdTranslate className="text-5xl text-slate-800" />
+                      <p className="text-2xl font-bold text-center text-slate-800">
+                        翻訳
+                      </p>
                     </div>
-                  </Link>
-                </div>
-              </div>
-              <div className="flex justify-end">
-                <div className="relative w-[70%]">
-                  <Link href="https://www.tedxutsukuba.com/">
-                    <img
-                      ref={parallaxLinkVortex02.ref}
-                      src="/vortex/03_transparent.webp"
-                      alt="渦1"
-                      className="w-full active:rotate-30 transition-all duration-500"
-                    />
-                    <div className="absolute rounded-full w-[70%] h-[70%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-cyan-100 border-2 bg-opacity-50 backdrop-blur-sm border-cyan-400 flex justify-center items-center">
-                      <div className="flex flex-col gap-2">
-                        <img
-                          src="CSLogo.svg"
-                          alt="Comment Screen"
-                          className="w-10 mx-auto"
-                        />
-                        <p className="text-xs font-bold text-center text-cyan-800">
+                  </div>
+                </Link>
+                <Link href="https://www.commentscreen.com/comments?id=DbBVNAYGaC5xnLShwNvz">
+                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
+                    <div className="flex gap-3 flex-col justify-center items-center h-full">
+                      <img
+                        src="CSLogo.svg"
+                        alt="Comment Screen"
+                        className="w-10 mx-auto"
+                      />
+                      <div className="flex gap-3 flex-col justify-end items-end flex-1">
+                        <p className="text-lg font-bold text-center text-slate-800">
                           Comment Screen
                         </p>
                       </div>
                     </div>
-                  </Link>
-                </div>
-              </div>
-              <div className="flex justify-start">
-                <div className="relative w-[70%]">
-                  <Link href="https://www.tedxutsukuba.com/">
-                    <img
-                      ref={parallaxLinkVortex03.ref}
-                      src="/vortex/07_transparent.webp"
-                      alt="渦1"
-                      className="w-full active:rotate-30 transition-all duration-500"
-                    />
-                    <div className="absolute rounded-full w-[70%] h-[70%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-pink-100 border-2 bg-opacity-50 backdrop-blur-sm border-pink-400 flex justify-center items-center">
-                      <div className="flex flex-col gap-2 items-center">
-                        <MdOutlineAssignment className="text-5xl text-pink-800" />
-                        <p className="text-xl font-bold text-center text-pink-800">
-                          アンケート
-                        </p>
-                      </div>
+                  </div>
+                </Link>
+                <Link href="https://forms.gle/VduC8A19BJZCh9yQ8">
+                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
+                    <div className="flex gap-3 flex-col justify-center items-center">
+                      <MdOutlineAssignment className="text-5xl text-slate-800" />
+                      <p className="text-xl font-bold text-center text-slate-800">
+                        アンケート
+                      </p>
                     </div>
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
