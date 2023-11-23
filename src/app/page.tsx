@@ -179,8 +179,6 @@ export default function Home() {
   const randomizeVortexPositions = () => {
     const windowWidth = linkDivRef.current?.scrollWidth || 0;
     const windowHeight = linkDivRef.current?.scrollHeight || 0;
-    const windowSize = windowHeight * windowWidth;
-    console.log(windowHeight, windowWidth, windowSize);
 
     const newVortexPositions = vortexPositions.map(() => {
       const size =
@@ -222,6 +220,7 @@ export default function Home() {
           {vortexPositions.map((vortex, index) => (
             // <Parallax key={index} speed={vortex.speed} easing="easeInOutCubic">
             <img
+              loading="lazy"
               key={index}
               src={`/vortex/0${(index % 8) + 1}_transparent.webp`}
               alt={`渦${(index % 8) + 1}`}
