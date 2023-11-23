@@ -211,6 +211,7 @@ export default function Home() {
           {vortexPositions.map((vortex, index) => (
             // <Parallax key={index} speed={vortex.speed} easing="easeInOutCubic">
             <img
+              loading="lazy"
               key={index}
               src={`/vortex/0${(index % 8) + 1}_transparent.webp`}
               alt={`渦${(index % 8) + 1}`}
