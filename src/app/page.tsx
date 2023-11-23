@@ -223,7 +223,7 @@ export default function Home() {
             // <Parallax key={index} speed={vortex.speed} easing="easeInOutCubic">
             <img
               key={index}
-              src={`/vortex/0${(index % 8) + 1}_transparent.png`}
+              src={`/vortex/0${(index % 8) + 1}_transparent.webp`}
               alt={`渦${(index % 8) + 1}`}
               className="absolute pointer-events-none transition-opacity ease-in-out"
               style={{
@@ -249,7 +249,7 @@ export default function Home() {
           <div className="max-w-md mx-auto py-12">
             <div className="flex flex-col gap-3 justify-center items-center">
               <img
-                src="tedxutsukuba.png"
+                src="tedxutsukuba.webp"
                 alt="TEDxUTsukuba"
                 className="w-[60%] mx-auto max-w-md"
               />
@@ -263,14 +263,14 @@ export default function Home() {
                   <Link href="https://www.tedxutsukuba.com/">
                     <img
                       ref={parallaxLinkVortex01.ref}
-                      src="/vortex/01_transparent.png"
+                      src="/vortex/01_transparent.webp"
                       alt="渦1"
                       className="w-full active:rotate-30 transition-all duration-500"
                     />
                     <div className="absolute rounded-full w-[70%] h-[70%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-purple-100 border-2 bg-opacity-50 backdrop-blur-sm border-purple-400 flex justify-center items-center">
                       <div className="flex flex-col gap-2 items-center">
                         <MdTranslate className="text-5xl text-purple-800" />
-                        <p className="text-xl font-bold text-center text-purple-800 font-serif">
+                        <p className="text-xl font-bold text-center text-purple-800">
                           翻訳
                         </p>
                       </div>
@@ -283,7 +283,7 @@ export default function Home() {
                   <Link href="https://www.tedxutsukuba.com/">
                     <img
                       ref={parallaxLinkVortex02.ref}
-                      src="/vortex/03_transparent.png"
+                      src="/vortex/03_transparent.webp"
                       alt="渦1"
                       className="w-full active:rotate-30 transition-all duration-500"
                     />
@@ -294,7 +294,7 @@ export default function Home() {
                           alt="Comment Screen"
                           className="w-10 mx-auto"
                         />
-                        <p className="text-xs font-bold text-center text-cyan-800 font-serif">
+                        <p className="text-xs font-bold text-center text-cyan-800">
                           Comment Screen
                         </p>
                       </div>
@@ -307,14 +307,14 @@ export default function Home() {
                   <Link href="https://www.tedxutsukuba.com/">
                     <img
                       ref={parallaxLinkVortex03.ref}
-                      src="/vortex/07_transparent.png"
+                      src="/vortex/07_transparent.webp"
                       alt="渦1"
                       className="w-full active:rotate-30 transition-all duration-500"
                     />
                     <div className="absolute rounded-full w-[70%] h-[70%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-pink-100 border-2 bg-opacity-50 backdrop-blur-sm border-pink-400 flex justify-center items-center">
                       <div className="flex flex-col gap-2 items-center">
                         <MdOutlineAssignment className="text-5xl text-pink-800" />
-                        <p className="text-xl font-bold text-center text-pink-800 font-serif">
+                        <p className="text-xl font-bold text-center text-pink-800">
                           アンケート
                         </p>
                       </div>

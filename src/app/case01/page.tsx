@@ -212,7 +212,7 @@ export default function Home() {
             // <Parallax key={index} speed={vortex.speed} easing="easeInOutCubic">
             <img
               key={index}
-              src={`/vortex/0${(index % 8) + 1}_transparent.png`}
+              src={`/vortex/0${(index % 8) + 1}_transparent.webp`}
               alt={`渦${(index % 8) + 1}`}
               className="absolute pointer-events-none transition-opacity ease-in-out"
               style={{
@@ -238,7 +238,7 @@ export default function Home() {
           <div className="max-w-md mx-auto py-12">
             <div className="flex flex-col gap-3 justify-center items-center">
               <img
-                src="tedxutsukuba.png"
+                src="tedxutsukuba.webp"
                 alt="TEDxUTsukuba"
                 className="w-[60%] mx-auto max-w-md"
               />
