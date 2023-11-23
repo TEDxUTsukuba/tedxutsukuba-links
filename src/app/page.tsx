@@ -1,10 +1,10 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { MdTranslate } from "react-icons/md";
 import { MdOutlineAssignment } from "react-icons/md";
-import { Parallax, useParallax } from "react-scroll-parallax";
+import { useParallax } from "react-scroll-parallax";
 
 export default function Home() {
   const linkDivRef = useRef<HTMLDivElement>(null);
