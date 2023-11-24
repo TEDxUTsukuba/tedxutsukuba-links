@@ -247,14 +247,14 @@ export default function Home() {
                 万華鏡
               </h1>
             </div>
-            <div className="py-12">
+            <div className="py-12 flex flex-col gap-6">
               <div className="grid grid-cols-1 gap-3">
                 <Link href="https://script.tedxutsukuba.com/audience/FpnBp8yUSMmSNXVVH93p">
                   <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
                     <div className="flex gap-3 flex-col justify-center items-center">
                       <MdTranslate className="text-5xl text-slate-800" />
                       <p className="text-2xl font-bold text-center text-slate-800">
-                        翻訳
+                        翻訳 / Translation
                       </p>
                     </div>
                   </div>
@@ -280,7 +280,20 @@ export default function Home() {
                     <div className="flex gap-3 flex-col justify-center items-center">
                       <MdOutlineAssignment className="text-5xl text-slate-800" />
                       <p className="text-xl font-bold text-center text-slate-800">
-                        アンケート
+                        イベントアンケート / Event Questionnaire
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="flex justify-center w-full h-1 rounded-full bg-slate-100"></div>
+              <div className="grid grid-cols-1 gap-3">
+                <Link href="https://forms.gle/ZGsbMuAyVmdVzD2x7">
+                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
+                    <div className="flex gap-3 flex-col justify-center items-center">
+                      <MdOutlineAssignment className="text-5xl text-slate-800" />
+                      <p className="text-2xl font-bold text-center text-slate-800">
+                        株式会社TOKIUM アンケート / TOKIUM Inc. Questionnaire
                       </p>
                     </div>
                   </div>
