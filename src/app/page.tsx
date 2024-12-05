@@ -265,7 +265,7 @@ export default function Home() {
                   <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-32 flex flex-col justify-center items-center border-2 border-slate-100">
                     <div className="flex gap-3 flex-col justify-center items-center">
                       <MdTranslate className="text-5xl text-slate-800" />
-                      <p className="text-2xl font-bold text-center text-slate-800">
+                      <p className="text-xl font-bold text-center text-slate-800">
                         翻訳 / Translation
                       </p>
                     </div>
@@ -280,7 +280,7 @@ export default function Home() {
                         className="h-16 mx-auto"
                       />
                       <div className="flex gap-3 flex-col justify-end items-end flex-1">
-                        <p className="text-lg font-bold text-center text-slate-800">
+                        <p className="text-xl font-bold text-center text-slate-800">
                           CommentScreen
                         </p>
                       </div>
