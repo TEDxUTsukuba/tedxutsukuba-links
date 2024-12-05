@@ -258,7 +258,7 @@ export default function Home() {
             <div className="py-12 flex flex-col gap-6">
               <div className="grid grid-cols-1 gap-3">
                 <Link href="https://script.tedxutsukuba.com/audience/FpnBp8yUSMmSNXVVH93p">
-                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
+                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-32 flex flex-col justify-center items-center border-2 border-slate-100">
                     <div className="flex gap-3 flex-col justify-center items-center">
                       <MdTranslate className="text-5xl text-slate-800" />
                       <p className="text-2xl font-bold text-center text-slate-800">
@@ -268,7 +268,7 @@ export default function Home() {
                   </div>
                 </Link>
                 <Link href="https://www.commentscreen.com/comments?id=ebim2sLMTGiaisNlcRWP">
-                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
+                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-32 flex flex-col justify-center items-center border-2 border-slate-100">
                     <div className="flex gap-3 flex-col justify-center items-center h-full">
                       <img
                         src="CSLogo.svg"
@@ -284,7 +284,7 @@ export default function Home() {
                   </div>
                 </Link>
                 <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc34nqaqJ8nb3eCUen77zv7wqSlGq2HhPz2s0jM5i_aAV5kzw/viewform?usp=sharing">
-                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
+                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-32 flex flex-col justify-center items-center border-2 border-slate-100">
                     <div className="flex gap-3 flex-col justify-center items-center">
                       <MdOutlineAssignment className="text-5xl text-slate-800" />
                       <p className="text-xl font-bold text-center text-slate-800">
