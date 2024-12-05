@@ -234,7 +234,7 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="h-screen background-blur bg-white bg-opacity-20 overflow-y-scroll overflow-x-hidden relative"
+        className="h-screen background-blur bg-white bg-opacity-5 overflow-y-scroll overflow-x-hidden relative"
         ref={linkDivRef}
       >
         <div className="p-3">
@@ -249,7 +249,7 @@ export default function Home() {
                 className="w-[60%] mx-auto max-w-md"
               /> */}
               <img
-                src="logo_white_2024.webp"
+                src="logo_black_2024.webp"
                 alt="TEDxUTsukuba 2024 Panorama"
                 className="w-[100%] mx-auto max-w-md cursor-pointer"
               />
