@@ -14,7 +14,8 @@
 }
 
 .custom-background {
-  background-color: #0E2545; /* ここで背景色を指定 */
+  /* background-color: #0E2545; */
+  background: linear-gradient(to bottom, white 70px, #0E2545 350px);
 }
 
 @keyframes backdrop {
