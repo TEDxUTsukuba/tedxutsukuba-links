@@ -173,12 +173,14 @@ export default function Home() {
 
     const newVortexPositions = vortexPositions.map(() => {
       const size =
-        Math.min(windowHeight, windowWidth) * Math.random() * 0.7 +
-        Math.min(windowHeight, windowWidth) * 0.4;
+        Math.min(windowHeight, windowWidth) * Math.random() * 0.3 +
+        Math.min(windowHeight, windowWidth) * 0.05;
       return {
-        // 真ん中になる確率を低くし、左右に寄った配置にする
-        x: `${windowWidth * Math.random() - size * 0.5}px`,
-        y: `${windowHeight * Math.random() - size * 1.5}px`,
+        // // 真ん中になる確率を低くし、左右に寄った配置にする
+        // x: `${windowWidth * Math.random() - size * 0.5}px`,
+        // y: `${windowHeight * Math.random() - size * 1.5}px`,
+        x: `${windowWidth * Math.random() - size * 3.5}px`,
+        y: `${windowHeight * Math.random() - size * 5.5}px`,
         size: size,
         // sizeが大きいほど値がマイナス値が小さくなる整数にする
         speed: -10 - Math.floor(Math.random() * 10),
@@ -204,7 +206,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden custom-background">
       <div className="absolute top-0 left-0 w-full h-[100dvh] overflow-hidden">
         <div className="relative">
           {/* 渦画像たち */}
@@ -213,7 +215,7 @@ export default function Home() {
             <img
               loading="lazy"
               key={index}
-              src={`/vortex/0${(index % 8) + 1}_transparent.webp`}
+              src={`/star/0${(index % 8) + 1}_transparent.webp`}
               alt={`渦${(index % 8) + 1}`}
               className="absolute pointer-events-none transition-opacity ease-in-out"
               style={{
@@ -238,14 +240,20 @@ export default function Home() {
         <div className="p-3">
           <div className="max-w-md mx-auto py-12">
             <div className="flex flex-col gap-3 justify-center items-center">
-              <img
+              {/* <img
                 src="tedxutsukuba.webp"
                 alt="TEDxUTsukuba"
                 className="w-[60%] mx-auto max-w-md"
-              />
-              <h1 className="text-5xl font-bold text-center font-serif text-slate-800">
+              /> */}
+                <img
+                src="keyvisual_2024.webp"
+                alt="TEDxUTsukuba"
+                className="w-[90%] mx-auto max-w-md cursor-pointer"
+                onClick={() => window.location.reload()}
+                />
+              {/* <h1 className="text-5xl font-bold text-center font-serif text-slate-800">
                 Panorama
-              </h1>
+              </h1> */}
             </div>
             <div className="py-12 flex flex-col gap-6">
               <div className="grid grid-cols-1 gap-3">
@@ -259,7 +267,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Link>
-                <Link href="https://www.commentscreen.com/comments?id=DbBVNAYGaC5xnLShwNvz">
+                <Link href="https://www.commentscreen.com/comments?id=ebim2sLMTGiaisNlcRWP">
                   <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
                     <div className="flex gap-3 flex-col justify-center items-center h-full">
                       <img
@@ -275,7 +283,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Link>
-                <Link href="https://forms.gle/VduC8A19BJZCh9yQ8">
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc34nqaqJ8nb3eCUen77zv7wqSlGq2HhPz2s0jM5i_aAV5kzw/viewform?usp=sharing">
                   <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-full flex flex-col justify-center items-center border-2 border-slate-100">
                     <div className="flex gap-3 flex-col justify-center items-center">
                       <MdOutlineAssignment className="text-5xl text-slate-800" />

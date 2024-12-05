@@ -13,6 +13,10 @@
   animation-fill-mode: forwards;
 }
 
+.custom-background {
+  background-color: #0E2545; /* ここで背景色を指定 */
+}
+
 @keyframes backdrop {
   0% {
     backdrop-filter: blur(0px);
