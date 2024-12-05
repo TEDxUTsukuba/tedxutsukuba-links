@@ -239,7 +239,10 @@ export default function Home() {
       >
         <div className="p-3">
           <div className="max-w-md mx-auto py-12">
-            <div className="flex flex-col gap-0 justify-center items-center">
+            <div
+              className="flex flex-col gap-0 justify-center items-center"
+              onClick={() => window.location.reload()}
+            >
               <img
                 src="tedxutsukuba.webp"
                 alt="TEDxUTsukuba"
@@ -248,14 +251,12 @@ export default function Home() {
               <img
                 src="keyvisual_2024.webp"
                 alt="TEDxUTsukuba"
-                className="w-[90%] mx-auto max-w-md cursor-pointer"
-                onClick={() => window.location.reload()}
+                className="w-[100%] mx-auto max-w-md cursor-pointer"
               />
               <img
                 src="panorama.webp"
                 alt="TEDxUTsukuba"
                 className="w-[60%] mx-auto max-w-md cursor-pointer"
-                onClick={() => window.location.reload()}
               />
             </div>
             <div className="py-12 flex flex-col gap-6">
