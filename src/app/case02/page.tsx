@@ -290,11 +290,11 @@ export default function Home() {
                       <div className="flex flex-col gap-2">
                         <img
                           src="CSLogo.svg"
-                          alt="Comment Screen"
+                          alt="CommentScreen"
                           className="w-10 mx-auto"
                         />
                         <p className="text-xs font-bold text-center text-cyan-800">
-                          Comment Screen
+                          CommentScreen
                         </p>
                       </div>
                     </div>

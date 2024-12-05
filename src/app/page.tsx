@@ -276,12 +276,12 @@ export default function Home() {
                     <div className="flex gap-3 flex-col justify-center items-center h-full">
                       <img
                         src="CSLogo.svg"
-                        alt="Comment Screen"
+                        alt="CommentScreen"
                         className="h-16 mx-auto"
                       />
                       <div className="flex gap-3 flex-col justify-end items-end flex-1">
                         <p className="text-lg font-bold text-center text-slate-800">
-                          Comment Screen
+                          CommentScreen
                         </p>
                       </div>
                     </div>
