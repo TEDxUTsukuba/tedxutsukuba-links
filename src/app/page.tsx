@@ -173,14 +173,14 @@ export default function Home() {
 
     const newVortexPositions = vortexPositions.map(() => {
       const size =
-        Math.min(windowHeight, windowWidth) * Math.random() * 0.3 +
-        Math.min(windowHeight, windowWidth) * 0.05;
+        Math.min(windowHeight, windowWidth) * Math.random() * 0.5 +
+        Math.min(windowHeight, windowWidth) * 0.1;
       return {
         // // 真ん中になる確率を低くし、左右に寄った配置にする
         // x: `${windowWidth * Math.random() - size * 0.5}px`,
         // y: `${windowHeight * Math.random() - size * 1.5}px`,
-        x: `${windowWidth * Math.random() - size * 3.5}px`,
-        y: `${windowHeight * Math.random() - size * 5.5}px`,
+        x: `${windowWidth * Math.random() - size * 4.0}px`,
+        y: `${windowHeight * Math.random() - size * 10.0}px`,
         size: size,
         // sizeが大きいほど値がマイナス値が小さくなる整数にする
         speed: -10 - Math.floor(Math.random() * 10),
