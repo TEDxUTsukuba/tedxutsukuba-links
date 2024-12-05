@@ -239,7 +239,7 @@ export default function Home() {
       >
         <div className="p-3">
           <div className="max-w-md mx-auto py-12">
-            <div className="flex flex-col gap-3 justify-center items-center">
+            <div className="flex flex-col gap-0 justify-center items-center">
               <img
                 src="tedxutsukuba.webp"
                 alt="TEDxUTsukuba"
@@ -257,9 +257,6 @@ export default function Home() {
                 className="w-[60%] mx-auto max-w-md cursor-pointer"
                 onClick={() => window.location.reload()}
               />
-              {/* <h1 className="text-5xl font-bold text-center font-serif text-slate-800">
-                Panorama
-              </h1> */}
             </div>
             <div className="py-12 flex flex-col gap-6">
               <div className="grid grid-cols-1 gap-3">
