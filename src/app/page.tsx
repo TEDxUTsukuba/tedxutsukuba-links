@@ -169,7 +169,7 @@ export default function Home() {
     const windowWidth = linkDivRef.current?.scrollWidth || 0;
     const windowHeight = linkDivRef.current?.scrollHeight || 0;
     const windowSize = windowHeight * windowWidth;
-    console.log(windowHeight, windowWidth, windowSize);
+    // console.log(windowHeight, windowWidth, windowSize);
 
     const newVortexPositions = vortexPositions.map(() => {
       const size =
