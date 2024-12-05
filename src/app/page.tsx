@@ -238,28 +238,28 @@ export default function Home() {
         ref={linkDivRef}
       >
         <div className="p-3">
-          <div className="max-w-md mx-auto py-12">
+          <div className="max-w-md mx-auto py-2">
             <div
               className="flex flex-col gap-0 justify-center items-center"
               onClick={() => window.location.reload()}
             >
-              <img
+              {/* <img
                 src="tedxutsukuba.webp"
                 alt="TEDxUTsukuba"
                 className="w-[60%] mx-auto max-w-md"
-              />
+              /> */}
               <img
-                src="keyvisual_2024.webp"
-                alt="TEDxUTsukuba"
+                src="logo_white_2024.webp"
+                alt="TEDxUTsukuba 2024 Panorama"
                 className="w-[100%] mx-auto max-w-md cursor-pointer"
               />
-              <img
+              {/* <img
                 src="panorama.webp"
                 alt="TEDxUTsukuba"
                 className="w-[60%] mx-auto max-w-md cursor-pointer"
-              />
+              /> */}
             </div>
-            <div className="py-12 flex flex-col gap-6">
+            <div className="pt-8 flex flex-col gap-6">
               <div className="grid grid-cols-1 gap-3">
                 <Link href="https://script.tedxutsukuba.com/audience/FpnBp8yUSMmSNXVVH93p">
                   <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-32 flex flex-col justify-center items-center border-2 border-slate-100">
