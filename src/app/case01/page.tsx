@@ -244,7 +244,7 @@ export default function Home() {
                 className="w-[60%] mx-auto max-w-md"
               />
               <h1 className="text-5xl font-bold text-center font-serif text-slate-800">
-                万華鏡
+                Panorama
               </h1>
             </div>
             <div className="py-12">
