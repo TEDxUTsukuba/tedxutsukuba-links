@@ -273,7 +273,7 @@ export default function Home() {
                       <img
                         src="CSLogo.svg"
                         alt="Comment Screen"
-                        className="w-10 mx-auto"
+                        className="h-16 mx-auto"
                       />
                       <div className="flex gap-3 flex-col justify-end items-end flex-1">
                         <p className="text-lg font-bold text-center text-slate-800">
