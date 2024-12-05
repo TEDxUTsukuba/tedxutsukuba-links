@@ -240,17 +240,23 @@ export default function Home() {
         <div className="p-3">
           <div className="max-w-md mx-auto py-12">
             <div className="flex flex-col gap-3 justify-center items-center">
-              {/* <img
+              <img
                 src="tedxutsukuba.webp"
                 alt="TEDxUTsukuba"
                 className="w-[60%] mx-auto max-w-md"
-              /> */}
-                <img
+              />
+              <img
                 src="keyvisual_2024.webp"
                 alt="TEDxUTsukuba"
                 className="w-[90%] mx-auto max-w-md cursor-pointer"
                 onClick={() => window.location.reload()}
-                />
+              />
+              <img
+                src="panorama.webp"
+                alt="TEDxUTsukuba"
+                className="w-[60%] mx-auto max-w-md cursor-pointer"
+                onClick={() => window.location.reload()}
+              />
               {/* <h1 className="text-5xl font-bold text-center font-serif text-slate-800">
                 Panorama
               </h1> */}
@@ -288,7 +294,8 @@ export default function Home() {
                     <div className="flex gap-3 flex-col justify-center items-center">
                       <MdOutlineAssignment className="text-5xl text-slate-800" />
                       <p className="text-xl font-bold text-center text-slate-800">
-                        イベントアンケート / Event Questionnaire
+                        イベントアンケート<br />
+                        / Event Questionnaire
                       </p>
                     </div>
                   </div>
