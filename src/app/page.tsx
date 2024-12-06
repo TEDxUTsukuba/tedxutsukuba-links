@@ -261,7 +261,7 @@ export default function Home() {
             </div>
             <div className="pt-8 flex flex-col gap-6">
               <div className="grid grid-cols-1 gap-3">
-                <Link href="https://script.tedxutsukuba.com/audience/FpnBp8yUSMmSNXVVH93p">
+                <Link href="https://script.tedxutsukuba.com/conference/panorama">
                   <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-32 flex flex-col justify-center items-center border-2 border-slate-100">
                     <div className="flex gap-3 flex-col justify-center items-center">
                       <MdTranslate className="text-5xl text-slate-800" />
