@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { MdTranslate } from "react-icons/md";
+import { MdPeople, MdTranslate } from "react-icons/md";
 import { MdOutlineAssignment } from "react-icons/md";
 
 export default function Home() {
@@ -294,6 +294,16 @@ export default function Home() {
                       <p className="text-xl font-bold text-center text-slate-800">
                         イベントアンケート<br />
                         / Event Questionnaire
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+                <Link href="https://attendee-network.tedxutsukuba.com/event/panorama/register">
+                  <div className="bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-3 h-32 flex flex-col justify-center items-center border-2 border-slate-100">
+                    <div className="flex gap-3 flex-col justify-center items-center">
+                      <MdPeople className="text-5xl text-slate-800" />
+                      <p className="text-xl font-bold text-center text-slate-800">
+                        ともだちコネクション
                       </p>
                     </div>
                   </div>
