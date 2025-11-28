@@ -15,7 +15,7 @@
 
 .custom-background {
   /* background-color: #0E2545; */
-  background: linear-gradient(to bottom, white 70px, #0E2545 350px);
+  background: linear-gradient(to bottom, white 70px, #0e2545 350px);
 }
 
 @keyframes backdrop {
@@ -28,4 +28,11 @@
   100% {
     backdrop-filter: blur(0.5px);
   }
+}
+
+.bg-station-tile {
+  background-color: #f4f4f5;
+  background-image: linear-gradient(#d4d4d8 2px, transparent 2px),
+    linear-gradient(90deg, #d4d4d8 2px, transparent 2px);
+  background-size: 100px 100px;
 }
