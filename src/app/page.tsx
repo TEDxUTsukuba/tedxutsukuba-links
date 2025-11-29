@@ -139,6 +139,80 @@ export default function Home() {
               <FaGlobe className="text-4xl" />
             </Link>
           </div>
+
+          {/* Partners List */}
+          <div className="bg-white border-4 border-slate-800 rounded-lg p-6 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)]">
+            <h2 className="text-2xl font-black text-slate-800 text-center mb-6 border-b-4 border-slate-800 pb-2">
+              PARTNERS
+            </h2>
+
+            <div className="flex flex-col gap-6">
+              {/* Platinum */}
+              <div className="text-center">
+                <h3 className="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">
+                  Platinum
+                </h3>
+                <ul className="flex flex-col gap-2">
+                  <li className="text-lg font-bold text-slate-800">
+                    Buddycom（株式会社サイエンスアーツ）
+                  </li>
+                  <li className="text-lg font-bold text-slate-800">
+                    株式会社TOKIUM
+                  </li>
+                </ul>
+              </div>
+
+              {/* Silver */}
+              <div className="text-center">
+                <h3 className="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">
+                  Silver
+                </h3>
+                <ul className="flex flex-col gap-2">
+                  <li className="text-base font-bold text-slate-800">
+                    株式会社ユーゴー
+                  </li>
+                </ul>
+              </div>
+
+              {/* Standard */}
+              <div className="text-center">
+                <h3 className="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">
+                  Standard
+                </h3>
+                <ul className="flex flex-col gap-2">
+                  <li className="text-sm font-medium text-slate-800">THFes.</li>
+                  <li className="text-sm font-medium text-slate-800">
+                    株式会社アクセル
+                  </li>
+                  <li className="text-sm font-medium text-slate-800">
+                    大和ハウス工業株式会社
+                  </li>
+                  <li className="text-sm font-medium text-slate-800">
+                    シンプレクス・ホールディングス株式会社
+                  </li>
+                  <li className="text-sm font-medium text-slate-800">
+                    有限会社コン・コース（ラーメン清六家本部）
+                  </li>
+                </ul>
+              </div>
+
+              {/* Basic */}
+              <div className="text-center">
+                <h3 className="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">
+                  Basic
+                </h3>
+                <ul className="flex flex-col gap-2">
+                  <li className="text-xs text-slate-600">
+                    APPLE PIE ORDER LTD / ラヂオつくば ZEP!!! 842 / On or About
+                  </li>
+                  <li className="text-xs text-slate-600">
+                    合同会社ホイスコーレの森
+                  </li>
+                  <li className="text-xs text-slate-600">CYBERDYNE株式会社</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Footer Decoration */}
