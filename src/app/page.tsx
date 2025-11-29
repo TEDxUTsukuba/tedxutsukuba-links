@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { MdPeople, MdTranslate } from "react-icons/md";
 import { MdOutlineAssignment } from "react-icons/md";
+import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -17,9 +19,9 @@ export default function Home() {
               onClick={() => window.location.reload()}
             >
               <img
-          src="keyvisual_2025.webp"
-          alt="TEDxUTsukuba 2025"
-          className="w-full max-w-xs object-contain"
+                src="keyvisual_2025.webp"
+                alt="TEDxUTsukuba 2025"
+                className="w-full max-w-xs object-contain"
               />
             </div>
           </div>
@@ -105,12 +107,37 @@ export default function Home() {
               </div>
             </Link>
           </div>
+
+          {/* SNS Links */}
+          <div className="flex justify-center gap-8">
+            <Link
+              href="https://twitter.com/TEDxUTsukuba"
+              target="_blank"
+              className="text-slate-600 hover:text-black transition-colors"
+            >
+              <FaXTwitter className="text-4xl" />
+            </Link>
+            <Link
+              href="https://www.instagram.com/tedxutsukuba/"
+              target="_blank"
+              className="text-slate-600 hover:text-[#E1306C] transition-colors"
+            >
+              <FaInstagram className="text-4xl" />
+            </Link>
+            <Link
+              href="https://www.facebook.com/TEDxUTsukuba"
+              target="_blank"
+              className="text-slate-600 hover:text-[#1877F2] transition-colors"
+            >
+              <FaFacebook className="text-4xl" />
+            </Link>
+          </div>
         </div>
 
         {/* Footer Decoration */}
         <div className="bg-slate-800 p-2 text-center">
           <div className="inline-block border-2 border-white px-3 py-1 rounded text-white text-xs font-mono">
-            TEDxUTsukuba Station
+            TEDxUTsukuba
           </div>
         </div>
       </div>
