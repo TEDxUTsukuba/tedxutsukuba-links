@@ -34,7 +34,7 @@ export default function Home() {
           <div className="flex flex-col gap-4">
             {/* Sign 1: Translation */}
             <Link
-              href="https://script.tedxutsukuba.com/conference/panorama"
+              href="https://script.tedxutsukuba.com/conference/shihatsu"
               className="group"
             >
               <div className="bg-white border-4 border-slate-800 rounded-lg p-4 flex items-center gap-4 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-transform active:translate-y-1 active:shadow-none hover:-translate-y-0.5">
@@ -57,7 +57,7 @@ export default function Home() {
 
             {/* Sign 2: CommentScreen */}
             <Link
-              href="https://www.commentscreen.com/comments?id=ebim2sLMTGiaisNlcRWP"
+              href="https://www.commentscreen.com/comments?id=WOG11Xi9z6YT3RsPwSPY"
               className="group"
             >
               <div className="bg-white border-4 border-slate-800 rounded-lg p-4 flex items-center gap-4 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-transform active:translate-y-1 active:shadow-none hover:-translate-y-0.5">
@@ -84,7 +84,7 @@ export default function Home() {
 
             {/* Sign 3: Questionnaire */}
             <Link
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc34nqaqJ8nb3eCUen77zv7wqSlGq2HhPz2s0jM5i_aAV5kzw/viewform?usp=sharing"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd-OkAlFT3iQAuaNdfUJz3r3AUwlddxRrYQ_YF0xzqbyK9RuA/viewform?usp=dialog"
               className="group"
             >
               <div className="bg-white border-4 border-slate-800 rounded-lg p-4 flex items-center gap-4 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-transform active:translate-y-1 active:shadow-none hover:-translate-y-0.5">
@@ -100,29 +100,6 @@ export default function Home() {
                     <span className="block text-sm font-bold text-slate-600">
                       Event Questionnaire
                     </span>
-                  </p>
-                </div>
-                <div className="text-slate-400 font-bold text-2xl group-hover:text-slate-800 transition-colors">
-                  &gt;
-                </div>
-              </div>
-            </Link>
-
-            {/* Sign 4: Friends Connection */}
-            <Link
-              href="https://attendee-network.tedxutsukuba.com/event/panorama/register"
-              className="group"
-            >
-              <div className="bg-white border-4 border-slate-800 rounded-lg p-4 flex items-center gap-4 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-transform active:translate-y-1 active:shadow-none hover:-translate-y-0.5">
-                <div className="bg-yellow-500 text-white p-3 rounded-md flex-shrink-0">
-                  <MdPeople className="text-3xl" />
-                </div>
-                <div className="flex-1">
-                  <p className="text-xs font-bold text-slate-500 mb-0.5">
-                    Track 4
-                  </p>
-                  <p className="text-lg font-black text-slate-800 leading-tight">
-                    ともだちコネクション
                   </p>
                 </div>
                 <div className="text-slate-400 font-bold text-2xl group-hover:text-slate-800 transition-colors">
