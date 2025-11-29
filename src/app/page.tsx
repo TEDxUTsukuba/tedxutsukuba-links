@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { MdPeople, MdTranslate } from "react-icons/md";
 import { MdOutlineAssignment } from "react-icons/md";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaGlobe } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Home() {
@@ -111,13 +111,6 @@ export default function Home() {
           {/* SNS Links */}
           <div className="flex justify-center gap-8">
             <Link
-              href="https://twitter.com/TEDxUTsukuba"
-              target="_blank"
-              className="text-slate-600 hover:text-black transition-colors"
-            >
-              <FaXTwitter className="text-4xl" />
-            </Link>
-            <Link
               href="https://www.instagram.com/tedxutsukuba/"
               target="_blank"
               className="text-slate-600 hover:text-[#E1306C] transition-colors"
@@ -125,11 +118,25 @@ export default function Home() {
               <FaInstagram className="text-4xl" />
             </Link>
             <Link
+              href="https://twitter.com/TEDxUTsukuba"
+              target="_blank"
+              className="text-slate-600 hover:text-black transition-colors"
+            >
+              <FaXTwitter className="text-4xl" />
+            </Link>
+            <Link
               href="https://www.facebook.com/TEDxUTsukuba"
               target="_blank"
               className="text-slate-600 hover:text-[#1877F2] transition-colors"
             >
               <FaFacebook className="text-4xl" />
+            </Link>
+            <Link
+              href="https://tedxutsukuba.com/"
+              target="_blank"
+              className="text-slate-600 hover:text-[#E62B1E] transition-colors"
+            >
+              <FaGlobe className="text-4xl" />
             </Link>
           </div>
         </div>
