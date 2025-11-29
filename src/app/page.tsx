@@ -146,70 +146,178 @@ export default function Home() {
               PARTNERS
             </h2>
 
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-8">
               {/* Platinum */}
               <div className="text-center">
-                <h3 className="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">
+                <h3 className="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">
                   Platinum
                 </h3>
-                <ul className="flex flex-col gap-2">
-                  <li className="text-lg font-bold text-slate-800">
-                    Buddycom（株式会社サイエンスアーツ）
-                  </li>
-                  <li className="text-lg font-bold text-slate-800">
-                    株式会社TOKIUM
-                  </li>
-                </ul>
+                <div className="flex flex-wrap justify-center gap-6">
+                  <div className="flex flex-col items-center gap-2 w-full max-w-[240px]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-4 shadow-sm">
+                      <img
+                        src="/company/buddycom.jpg"
+                        alt="Buddycom"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-sm font-bold text-slate-800">
+                      Buddycom
+                      <br />
+                      （株式会社サイエンスアーツ）
+                    </span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 w-full max-w-[240px]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-4 shadow-sm">
+                      <img
+                        src="/company/tokium.jpg"
+                        alt="株式会社TOKIUM"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-sm font-bold text-slate-800">
+                      株式会社TOKIUM
+                    </span>
+                  </div>
+                </div>
               </div>
 
               {/* Silver */}
               <div className="text-center">
-                <h3 className="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">
+                <h3 className="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">
                   Silver
                 </h3>
-                <ul className="flex flex-col gap-2">
-                  <li className="text-base font-bold text-slate-800">
-                    株式会社ユーゴー
-                  </li>
-                </ul>
+                <div className="flex flex-wrap justify-center gap-4">
+                  <div className="flex flex-col items-center gap-2 w-[calc(50%-0.5rem)]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-3 shadow-sm">
+                      <img
+                        src="/company/yugo.jpg"
+                        alt="株式会社ユーゴー"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-xs font-bold text-slate-800">
+                      株式会社ユーゴー
+                    </span>
+                  </div>
+                </div>
               </div>
 
               {/* Standard */}
               <div className="text-center">
-                <h3 className="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">
+                <h3 className="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">
                   Standard
                 </h3>
-                <ul className="flex flex-col gap-2">
-                  <li className="text-sm font-medium text-slate-800">THFes.</li>
-                  <li className="text-sm font-medium text-slate-800">
-                    株式会社アクセル
-                  </li>
-                  <li className="text-sm font-medium text-slate-800">
-                    大和ハウス工業株式会社
-                  </li>
-                  <li className="text-sm font-medium text-slate-800">
-                    シンプレクス・ホールディングス株式会社
-                  </li>
-                  <li className="text-sm font-medium text-slate-800">
-                    有限会社コン・コース（ラーメン清六家本部）
-                  </li>
-                </ul>
+                <div className="flex flex-wrap justify-center gap-3">
+                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
+                      <img
+                        src="/company/thfes.jpg"
+                        alt="THFes."
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-[10px] font-medium text-slate-800 leading-tight">
+                      THFes.
+                    </span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
+                      <img
+                        src="/company/accel.jpg"
+                        alt="株式会社アクセル"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-[10px] font-medium text-slate-800 leading-tight">
+                      株式会社アクセル
+                    </span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
+                      <img
+                        src="/company/daiwahouse.jpg"
+                        alt="大和ハウス工業株式会社"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-[10px] font-medium text-slate-800 leading-tight">
+                      大和ハウス工業株式会社
+                    </span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
+                      <img
+                        src="/company/simplex.jpg"
+                        alt="シンプレクス・ホールディングス株式会社"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-[10px] font-medium text-slate-800 leading-tight">
+                      シンプレクス・ホールディングス株式会社
+                    </span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
+                      <img
+                        src="/company/seirokuya.jpg"
+                        alt="有限会社コン・コース"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-[10px] font-medium text-slate-800 leading-tight">
+                      有限会社コン・コース
+                      <br />
+                      （ラーメン清六家本部）
+                    </span>
+                  </div>
+                </div>
               </div>
 
               {/* Basic */}
               <div className="text-center">
-                <h3 className="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">
+                <h3 className="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">
                   Basic
                 </h3>
-                <ul className="flex flex-col gap-2">
-                  <li className="text-xs text-slate-600">
-                    APPLE PIE ORDER LTD / ラヂオつくば ZEP!!! 842 / On or About
-                  </li>
-                  <li className="text-xs text-slate-600">
-                    合同会社ホイスコーレの森
-                  </li>
-                  <li className="text-xs text-slate-600">CYBERDYNE株式会社</li>
-                </ul>
+                <div className="flex flex-wrap justify-center gap-3">
+                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
+                      <img
+                        src="/company/applepie.jpg"
+                        alt="APPLE PIE ORDER LTD"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-[10px] text-slate-600 leading-tight">
+                      APPLE PIE ORDER LTD / ラヂオつくば ZEP!!! 842 / On or
+                      About
+                    </span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
+                      <img
+                        src="/company/hojskole.jpg"
+                        alt="合同会社ホイスコーレの森"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-[10px] text-slate-600 leading-tight">
+                      合同会社ホイスコーレの森
+                    </span>
+                  </div>
+                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                    <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
+                      <img
+                        src="/company/cyberdyne.jpg"
+                        alt="CYBERDYNE株式会社"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-[10px] text-slate-600 leading-tight">
+                      CYBERDYNE株式会社
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
