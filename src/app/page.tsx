@@ -21,9 +21,6 @@ export default function Home() {
           alt="TEDxUTsukuba 2025"
           className="w-full max-w-xs object-contain"
               />
-              <div className="bg-black text-yellow-400 px-4 py-1 font-bold text-sm tracking-widest uppercase rounded-full border-2 border-gray-200">
-          Station Entrance
-              </div>
             </div>
           </div>
         </div>
