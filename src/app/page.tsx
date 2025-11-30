@@ -14,16 +14,16 @@ export default function Home() {
         {/* Station Header Style */}
         <div className="p-4">
           <div className="bg-gray-300 p-2 rounded-lg shadow-lg border-2 border-gray-400">
-            <div
-              className="bg-white p-4 rounded flex flex-col gap-2 justify-center items-center cursor-pointer shadow-inner"
-              onClick={() => window.location.reload()}
-            >
-              <img
-                src="keyvisual_2025.webp"
-                alt="TEDxUTsukuba 2025"
-                className="w-full max-w-xs object-contain"
-              />
-            </div>
+        <div
+          className="bg-white rounded flex flex-col gap-2 justify-center items-center cursor-pointer shadow-inner"
+          onClick={() => window.location.reload()}
+        >
+          <img
+            src="keyvisual_2025.webp"
+            alt="TEDxUTsukuba 2025"
+            className="w-full object-contain"
+          />
+        </div>
           </div>
         </div>
 
@@ -409,10 +409,10 @@ export default function Home() {
                       ユカイ工学株式会社
                     </span>
                   </div>
-                    <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <span className="text-xs font-bold text-slate-800 text-center">
-                      沼田屋本店
+                        沼田屋本店
                       </span>
                     </div>
                     <span className="text-[10px] text-slate-600 leading-tight">
