@@ -167,6 +167,14 @@ export default function Home() {
                       （株式会社サイエンスアーツ）
                     </span>
                     <Link
+                      href="/company/movies/buddycom.mp4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-slate-200 hover:bg-slate-300 text-slate-700 px-3 py-1 rounded text-xs font-bold transition-colors"
+                    >
+                      紹介動画
+                    </Link>
+                    <Link
                       href="https://buddycom.net/?utm_source=partner-site&utm_medium=referral&utm_campaign=sponsor"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -186,6 +194,14 @@ export default function Home() {
                     <span className="text-sm font-bold text-slate-800">
                       株式会社TOKIUM
                     </span>
+                    <Link
+                      href="/company/movies/tokium.mp4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-slate-200 hover:bg-slate-300 text-slate-700 px-3 py-1 rounded text-xs font-bold transition-colors"
+                    >
+                      紹介動画
+                    </Link>
                     <Link
                       href="https://corp.tokium.jp/"
                       target="_blank"
@@ -215,6 +231,14 @@ export default function Home() {
                     <span className="text-xs font-bold text-slate-800">
                       株式会社ユーゴー
                     </span>
+                    <Link
+                      href="/company/movies/ugo.mp4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-slate-200 hover:bg-slate-300 text-slate-700 px-3 py-1 rounded text-xs font-bold transition-colors"
+                    >
+                      紹介動画
+                    </Link>
                     <Link
                       href="https://www.u-go.jp/"
                       target="_blank"
