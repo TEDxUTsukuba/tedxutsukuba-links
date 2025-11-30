@@ -156,7 +156,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-full max-w-[240px]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-4 shadow-sm">
                       <img
-                        src="/company/buddycom.jpg"
+                        src="/company/buddycom.png"
                         alt="Buddycom"
                         className="w-full h-full object-contain"
                       />
@@ -186,7 +186,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-full max-w-[240px]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-4 shadow-sm">
                       <img
-                        src="/company/tokium.jpg"
+                        src="/company/tokium.png"
                         alt="株式会社TOKIUM"
                         className="w-full h-full object-contain"
                       />
@@ -223,7 +223,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(50%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-3 shadow-sm">
                       <img
-                        src="/company/yugo.jpg"
+                        src="/company/ugo.png"
                         alt="株式会社ユーゴー"
                         className="w-full h-full object-contain"
                       />
@@ -260,7 +260,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/thfes.jpg"
+                        src="/company/thf.jpg"
                         alt="THFes."
                         className="w-full h-full object-contain"
                       />
@@ -272,7 +272,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/accel.jpg"
+                        src="/company/axell.png"
                         alt="株式会社アクセル"
                         className="w-full h-full object-contain"
                       />
@@ -308,7 +308,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/seirokuya.jpg"
+                        src="/company/seirockya.png"
                         alt="有限会社コン・コース"
                         className="w-full h-full object-contain"
                       />
@@ -331,7 +331,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/applepie.jpg"
+                        src="/company/apple.jpg"
                         alt="APPLE PIE ORDER LTD"
                         className="w-full h-full object-contain"
                       />
@@ -343,7 +343,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/radiotsukuba.jpg"
+                        src="/company/zep.png"
                         alt="ラヂオつくば ZEP!!! 842"
                         className="w-full h-full object-contain"
                       />
@@ -355,7 +355,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/onorabout.jpg"
+                        src="/company/onor.jpg"
                         alt="On or About"
                         className="w-full h-full object-contain"
                       />
@@ -367,7 +367,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/hojskole.jpg"
+                        src="/company/hoi.jpg"
                         alt="合同会社ホイスコーレの森"
                         className="w-full h-full object-contain"
                       />
@@ -379,7 +379,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/cyberdyne.jpg"
+                        src="/company/cyb.png"
                         alt="CYBERDYNE株式会社"
                         className="w-full h-full object-contain"
                       />
@@ -400,7 +400,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/yukai.jpg"
+                        src="/company/yukai.png"
                         alt="ユカイ工学株式会社"
                         className="w-full h-full object-contain"
                       />
@@ -409,13 +409,11 @@ export default function Home() {
                       ユカイ工学株式会社
                     </span>
                   </div>
-                  <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
+                    <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
-                      <img
-                        src="/company/numataya.jpg"
-                        alt="沼田屋本店"
-                        className="w-full h-full object-contain"
-                      />
+                      <span className="text-xs font-bold text-slate-800 text-center">
+                      沼田屋本店
+                      </span>
                     </div>
                     <span className="text-[10px] text-slate-600 leading-tight">
                       沼田屋本店
@@ -424,7 +422,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/tokyofood.jpg"
+                        src="/company/tokyo.png"
                         alt="東京フード株式会社"
                         className="w-full h-full object-contain"
                       />
@@ -436,7 +434,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/jimmyfarm.jpg"
+                        src="/company/farm.jpg"
                         alt="ジミーfarm合同会社"
                         className="w-full h-full object-contain"
                       />
@@ -448,7 +446,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/tpirc.jpg"
+                        src="/company/tpirc.png"
                         alt="次世代農業研究部門（T-PIRC農場）"
                         className="w-full h-full object-contain"
                       />
@@ -474,7 +472,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/commentscreen.jpg"
+                        src="/company/commentscreen.png"
                         alt="CommentScreen株式会社"
                         className="w-full h-full object-contain"
                       />
@@ -486,7 +484,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/oshouyu.jpg"
+                        src="/company/oshouyu.jpeg"
                         alt="お醤油屋さんのおせんべい本舗"
                         className="w-full h-full object-contain"
                       />
@@ -536,7 +534,7 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2 w-[calc(33.3%-0.5rem)]">
                     <div className="aspect-square w-full bg-white rounded-lg border border-slate-200 flex items-center justify-center p-2 shadow-sm">
                       <img
-                        src="/company/tsukubaham.jpg"
+                        src="/company/tsukuba.png"
                         alt="有限会社筑波ハム"
                         className="w-full h-full object-contain"
                       />
