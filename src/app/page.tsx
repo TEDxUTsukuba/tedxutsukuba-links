@@ -143,7 +143,7 @@ export default function Home() {
           {/* Partners List */}
           <div className="bg-white border-4 border-slate-800 rounded-lg p-6 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)]">
             <h2 className="text-2xl font-black text-slate-800 text-center mb-6 border-b-4 border-slate-800 pb-2">
-              PARTNERS
+              PARTNER
             </h2>
 
             <div className="flex flex-col gap-8">
